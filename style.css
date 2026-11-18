@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark;
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord8: #88c0d0;
+}
+
+* { box-sizing: border-box; }
+
+html, body { min-height: 100%; }
+
+body {
+  align-items: center;
+  background: var(--nord0);
+  color: var(--nord4);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-height: 100svh;
+  padding: 24px;
+}
+
+.banner {
+  border-bottom: 1px solid var(--nord8);
+  border-top: 1px solid var(--nord3);
+  color: #eceff4;
+  font-family: "Inter", "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  font-size: clamp(2.2rem, 9vw, 7rem);
+  font-weight: 500;
+  letter-spacing: -.07em;
+  line-height: 1.15;
+  padding: 16px 0 22px;
+  text-align: center;
+  width: min(100%, 980px);
+}
